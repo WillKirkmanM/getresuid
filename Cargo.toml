@@ -1,0 +1,10 @@
+[package]
+name = "getresuid"
+version = "0.1.0"
+edition = "2024"
+description = "The getresuid Command Displays Real, Effective, and Saved User IDs for Its Own Linux Process, with Optional Group IDs for Comparing Process Credentials"
+repository = "https://github.com/WillKirkmanM/getresuid"
+keywords = ["parsonlabs", "linux", "syscalls", "cli"]
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
